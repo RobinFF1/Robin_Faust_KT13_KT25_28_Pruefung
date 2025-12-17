@@ -1,0 +1,61 @@
+﻿@page "/stundenplan-read"
+@using StundenplanDb.Models
+@using Microsoft.EntityFrameworkCore
+@rendermode InteractiveServer
+
+<h3>Stundenplan – Anzeige</h3>
+
+<button class="btn btn-primary mb-3" @onclick="Load">Laden</button>
+
+@if (eintraege == null)
+{
+    <p>Noch nicht geladen.</p>
+}
+else if (!eintraege.Any())
+{
+    <p>Keine Einträge vorhanden.</p>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Klasse</th>
+                <th>Datum</th>
+                <th>Uhrzeit</th>
+                <th>Lehrer</th>
+                <th>Zimmer</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var e in eintraege)
+            {
+                <tr>
+                    <td>@e.EintragId</td>
+                    <td>@e.Klasse.Name</td>
+                    <td>@e.Datum.ToString("yyyy-MM-dd")</td>
+                    <td>@e.Uhrzeit.ToString("HH:mm")</td>
+                    <td>@e.Lehrer.Name</td>
+                    <td>@e.Zimmer.Bezeichnung</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private readonly MyDbContext db = new();
+    private List<StundenplanEintraege>? eintraege;
+
+    private void Load()
+    {
+        eintraege = db.StundenplanEintraeges
+            .Include(x => x.Klasse)
+            .Include(x => x.Lehrer)
+            .Include(x => x.Zimmer)
+            .OrderBy(x => x.Datum)
+            .ThenBy(x => x.Uhrzeit)
+            .ToList();
+    }
+}

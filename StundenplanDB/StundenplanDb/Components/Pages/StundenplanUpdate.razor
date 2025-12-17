@@ -1,0 +1,96 @@
+﻿@page "/stundenplan-create"
+@using YourProject.Models
+@rendermode InteractiveServer
+
+<h3>Stundenplan – Erstellen</h3>
+
+<button class="btn btn-secondary mb-3" @onclick="LoadLookups">Lookups laden</button>
+
+<div class="mb-2">
+    <label>Klasse</label>
+    <select class="form-select" @bind="newEntry.KlasseID">
+        @foreach (var k in klassen)
+        {
+            <option value="@k.KlasseID">@k.Name</option>
+        }
+    </select>
+</div>
+
+<div class="mb-2">
+    <label>Lehrer</label>
+    <select class="form-select" @bind="newEntry.LehrerID">
+        @foreach (var l in lehrer)
+        {
+            <option value="@l.LehrerID">@l.Name</option>
+        }
+    </select>
+</div>
+
+<div class="mb-2">
+    <label>Zimmer</label>
+    <select class="form-select" @bind="newEntry.ZimmerID">
+        @foreach (var z in zimmer)
+        {
+            <option value="@z.ZimmerID">@z.Bezeichnung</option>
+        }
+    </select>
+</div>
+
+<div class="mb-2">
+    <label>Datum</label>
+    <input class="form-control" type="date" @bind="datumString" />
+</div>
+
+<div class="mb-3">
+    <label>Uhrzeit</label>
+    <input class="form-control" type="time" @bind="zeitString" />
+</div>
+
+<button class="btn btn-primary" @onclick="Create">Speichern</button>
+
+@if (!string.IsNullOrWhiteSpace(status))
+{
+    <p class="mt-2">@status</p>
+}
+
+@code {
+    MyDbContext db = new MyDbContext();
+
+    List<Klassen> klassen = new();
+    List<Lehrer> lehrer = new();
+    List<Zimmer> zimmer = new();
+
+    StundenplanEintraege newEntry = new StundenplanEintraege();
+
+    string datumString = DateTime.Today.ToString("yyyy-MM-dd");
+    string zeitString = "08:15";
+    string? status;
+
+    private void LoadLookups()
+    {
+        klassen = db.Set<Klassen>().OrderBy(x => x.Name).ToList();
+        lehrer = db.Set<Lehrer>().OrderBy(x => x.Name).ToList();
+        zimmer = db.Set<Zimmer>().OrderBy(x => x.Bezeichnung).ToList();
+
+        // Defaults setzen, damit Dropdowns nicht leer sind
+        if (klassen.Any()) newEntry.KlasseID = klassen.First().KlasseID;
+        if (lehrer.Any()) newEntry.LehrerID = lehrer.First().LehrerID;
+        if (zimmer.Any()) newEntry.ZimmerID = zimmer.First().ZimmerID;
+    }
+
+    private void Create()
+    {
+        status = null;
+
+        newEntry.Datum = DateTime.Parse(datumString);
+        newEntry.Uhrzeit = TimeSpan.Parse(zeitString);
+
+        db.Set<StundenplanEintraege>().Add(newEntry);
+        db.SaveChanges();
+
+        status = $"Eintrag gespeichert (ID: {newEntry.EintragID}).";
+
+        newEntry = new StundenplanEintraege();
+        LoadLookups();
+    }
+}

@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\robin\\OneDrive - ICT Berufsfachschulen Kanton Thurgau (1)\\KT 13 Informatik\\Test\\20251217_Pr\u00FCfung\\Robin_Faust_KT13_KT25_28_Pruefung\\StundenplanDB\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{68F9806B-157E-41B6-905B-4DB6F250CF0D}|StundenplanDb\\StundenplanDb.csproj|c:\\users\\robin\\onedrive - ict berufsfachschulen kanton thurgau (1)\\kt 13 informatik\\test\\20251217_pr\u00FCfung\\robin_faust_kt13_kt25_28_pruefung\\stundenplandb\\stundenplandb\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68F9806B-157E-41B6-905B-4DB6F250CF0D}|StundenplanDb\\StundenplanDb.csproj|solutionrelative:stundenplandb\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68F9806B-157E-41B6-905B-4DB6F250CF0D}|StundenplanDb\\StundenplanDb.csproj|c:\\users\\robin\\onedrive - ict berufsfachschulen kanton thurgau (1)\\kt 13 informatik\\test\\20251217_pr\u00FCfung\\robin_faust_kt13_kt25_28_pruefung\\stundenplandb\\stundenplandb\\components\\pages\\stundenplandelete.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68F9806B-157E-41B6-905B-4DB6F250CF0D}|StundenplanDb\\StundenplanDb.csproj|solutionrelative:stundenplandb\\components\\pages\\stundenplandelete.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68F9806B-157E-41B6-905B-4DB6F250CF0D}|StundenplanDb\\StundenplanDb.csproj|c:\\users\\robin\\onedrive - ict berufsfachschulen kanton thurgau (1)\\kt 13 informatik\\test\\20251217_pr\u00FCfung\\robin_faust_kt13_kt25_28_pruefung\\stundenplandb\\stundenplandb\\components\\pages\\stundenplanupdate.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68F9806B-157E-41B6-905B-4DB6F250CF0D}|StundenplanDb\\StundenplanDb.csproj|solutionrelative:stundenplandb\\components\\pages\\stundenplanupdate.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68F9806B-157E-41B6-905B-4DB6F250CF0D}|StundenplanDb\\StundenplanDb.csproj|c:\\users\\robin\\onedrive - ict berufsfachschulen kanton thurgau (1)\\kt 13 informatik\\test\\20251217_pr\u00FCfung\\robin_faust_kt13_kt25_28_pruefung\\stundenplandb\\stundenplandb\\components\\pages\\stundenplancreate.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68F9806B-157E-41B6-905B-4DB6F250CF0D}|StundenplanDb\\StundenplanDb.csproj|solutionrelative:stundenplandb\\components\\pages\\stundenplancreate.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\robin\\OneDrive - ICT Berufsfachschulen Kanton Thurgau (1)\\KT 13 Informatik\\Test\\20251217_Pr\u00FCfung\\Robin_Faust_KT13_KT25_28_Pruefung\\StundenplanDB\\StundenplanDb\\Models\\MyDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:StundenplanDb\\Models\\MyDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68F9806B-157E-41B6-905B-4DB6F250CF0D}|StundenplanDb\\StundenplanDb.csproj|c:\\users\\robin\\onedrive - ict berufsfachschulen kanton thurgau (1)\\kt 13 informatik\\test\\20251217_pr\u00FCfung\\robin_faust_kt13_kt25_28_pruefung\\stundenplandb\\stundenplandb\\components\\pages\\stundenplanread.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68F9806B-157E-41B6-905B-4DB6F250CF0D}|StundenplanDb\\StundenplanDb.csproj|solutionrelative:stundenplandb\\components\\pages\\stundenplanread.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StundenplanDelete.razor",
+              "DocumentMoniker": "C:\\Users\\robin\\OneDrive - ICT Berufsfachschulen Kanton Thurgau (1)\\KT 13 Informatik\\Test\\20251217_Pr\u00FCfung\\Robin_Faust_KT13_KT25_28_Pruefung\\StundenplanDB\\StundenplanDb\\Components\\Pages\\StundenplanDelete.razor",
+              "RelativeDocumentMoniker": "StundenplanDb\\Components\\Pages\\StundenplanDelete.razor",
+              "ToolTip": "C:\\Users\\robin\\OneDrive - ICT Berufsfachschulen Kanton Thurgau (1)\\KT 13 Informatik\\Test\\20251217_Pr\u00FCfung\\Robin_Faust_KT13_KT25_28_Pruefung\\StundenplanDB\\StundenplanDb\\Components\\Pages\\StundenplanDelete.razor",
+              "RelativeToolTip": "StundenplanDb\\Components\\Pages\\StundenplanDelete.razor",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAcwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-17T18:46:53.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StundenplanUpdate.razor",
+              "DocumentMoniker": "C:\\Users\\robin\\OneDrive - ICT Berufsfachschulen Kanton Thurgau (1)\\KT 13 Informatik\\Test\\20251217_Pr\u00FCfung\\Robin_Faust_KT13_KT25_28_Pruefung\\StundenplanDB\\StundenplanDb\\Components\\Pages\\StundenplanUpdate.razor",
+              "RelativeDocumentMoniker": "StundenplanDb\\Components\\Pages\\StundenplanUpdate.razor",
+              "ToolTip": "C:\\Users\\robin\\OneDrive - ICT Berufsfachschulen Kanton Thurgau (1)\\KT 13 Informatik\\Test\\20251217_Pr\u00FCfung\\Robin_Faust_KT13_KT25_28_Pruefung\\StundenplanDB\\StundenplanDb\\Components\\Pages\\StundenplanUpdate.razor",
+              "RelativeToolTip": "StundenplanDb\\Components\\Pages\\StundenplanUpdate.razor",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAcwGAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-17T18:45:47.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StundenplanCreate.razor",
+              "DocumentMoniker": "C:\\Users\\robin\\OneDrive - ICT Berufsfachschulen Kanton Thurgau (1)\\KT 13 Informatik\\Test\\20251217_Pr\u00FCfung\\Robin_Faust_KT13_KT25_28_Pruefung\\StundenplanDB\\StundenplanDb\\Components\\Pages\\StundenplanCreate.razor",
+              "RelativeDocumentMoniker": "StundenplanDb\\Components\\Pages\\StundenplanCreate.razor",
+              "ToolTip": "C:\\Users\\robin\\OneDrive - ICT Berufsfachschulen Kanton Thurgau (1)\\KT 13 Informatik\\Test\\20251217_Pr\u00FCfung\\Robin_Faust_KT13_KT25_28_Pruefung\\StundenplanDB\\StundenplanDb\\Components\\Pages\\StundenplanCreate.razor",
+              "RelativeToolTip": "StundenplanDb\\Components\\Pages\\StundenplanCreate.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-17T18:04:13.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MyDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\robin\\OneDrive - ICT Berufsfachschulen Kanton Thurgau (1)\\KT 13 Informatik\\Test\\20251217_Pr\u00FCfung\\Robin_Faust_KT13_KT25_28_Pruefung\\StundenplanDB\\StundenplanDb\\Models\\MyDbContext.cs",
+              "RelativeDocumentMoniker": "StundenplanDb\\Models\\MyDbContext.cs",
+              "ToolTip": "C:\\Users\\robin\\OneDrive - ICT Berufsfachschulen Kanton Thurgau (1)\\KT 13 Informatik\\Test\\20251217_Pr\u00FCfung\\Robin_Faust_KT13_KT25_28_Pruefung\\StundenplanDB\\StundenplanDb\\Models\\MyDbContext.cs",
+              "RelativeToolTip": "StundenplanDb\\Models\\MyDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T17:49:47.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\robin\\OneDrive - ICT Berufsfachschulen Kanton Thurgau (1)\\KT 13 Informatik\\Test\\20251217_Pr\u00FCfung\\Robin_Faust_KT13_KT25_28_Pruefung\\StundenplanDB\\StundenplanDb\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "StundenplanDb\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\robin\\OneDrive - ICT Berufsfachschulen Kanton Thurgau (1)\\KT 13 Informatik\\Test\\20251217_Pr\u00FCfung\\Robin_Faust_KT13_KT25_28_Pruefung\\StundenplanDB\\StundenplanDb\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "StundenplanDb\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-17T17:50:36.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StundenplanRead.razor",
+              "DocumentMoniker": "C:\\Users\\robin\\OneDrive - ICT Berufsfachschulen Kanton Thurgau (1)\\KT 13 Informatik\\Test\\20251217_Pr\u00FCfung\\Robin_Faust_KT13_KT25_28_Pruefung\\StundenplanDB\\StundenplanDb\\Components\\Pages\\StundenplanRead.razor",
+              "RelativeDocumentMoniker": "StundenplanDb\\Components\\Pages\\StundenplanRead.razor",
+              "ToolTip": "C:\\Users\\robin\\OneDrive - ICT Berufsfachschulen Kanton Thurgau (1)\\KT 13 Informatik\\Test\\20251217_Pr\u00FCfung\\Robin_Faust_KT13_KT25_28_Pruefung\\StundenplanDB\\StundenplanDb\\Components\\Pages\\StundenplanRead.razor",
+              "RelativeToolTip": "StundenplanDb\\Components\\Pages\\StundenplanRead.razor",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAcwD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-17T17:53:48.985Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

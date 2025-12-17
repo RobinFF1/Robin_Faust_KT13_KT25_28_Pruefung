@@ -1,0 +1,40 @@
+﻿@page "/stundenplan-delete"
+@using YourProject.Models
+@rendermode InteractiveServer
+
+<h3>Stundenplan – Löschen</h3>
+
+<div class="mb-2">
+    <label>Eintrag-ID</label>
+    <input class="form-control" type="number" @bind="deleteId" />
+</div>
+
+<button class="btn btn-danger" @onclick="Delete">Löschen</button>
+
+@if (!string.IsNullOrWhiteSpace(status))
+{
+    <p class="mt-2">@status</p>
+}
+
+@code {
+    MyDbContext db = new MyDbContext();
+
+    int? deleteId;
+    string? status;
+
+    private void Delete()
+    {
+        status = null;
+
+        if (deleteId == null) { status = "Bitte ID eingeben."; return; }
+
+        var entry = db.Set<StundenplanEintraege>().FirstOrDefault(x => x.EintragID == deleteId.Value);
+        if (entry == null) { status = $"ID {deleteId.Value} nicht gefunden."; return; }
+
+        db.Remove(entry);
+        db.SaveChanges();
+
+        status = $"Eintrag {deleteId.Value} gelöscht.";
+    }
+}
+
